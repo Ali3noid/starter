@@ -1,0 +1,7 @@
+CREATE SEQUENCE "foo-seq" START 1;
+CREATE TABLE FOO (
+    foo_id BIGINT NOT NULL PRIMARY KEY,
+    foo_varchar VARCHAR(50) NOT NULL,
+    foo_number INTEGER NOT NULL
+);
+
